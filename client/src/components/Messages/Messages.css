@@ -1,0 +1,31 @@
+.messages {
+  padding: 10px;
+  overflow-y: auto;
+  flex-grow: 1;
+  background: #f9f9fc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  color: #333;
+  max-width: 80%;
+  width: fit-content;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.message:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.message.user {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  align-self: flex-end;
+}

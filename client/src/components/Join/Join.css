@@ -1,0 +1,112 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.joinInnerContainer {
+  min-width: 300px;
+  width: 35%;
+  background: linear-gradient(145deg, #1e1e2f, #23242a);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.joinInput {
+  border-radius: 10px;
+  padding: 18px 25px;
+  width: 100%;
+  border: none;
+  margin-top: 12px;
+  background: linear-gradient(145deg, #ffffff, #f0f4f8);
+  box-shadow: inset 0px 5px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.joinInput:focus {
+  outline: none;
+  box-shadow: 0px 0px 15px #00d2d2;
+}
+
+.heading {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #ff7675;
+  margin-bottom: 25px;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+    padding: 20px;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+  .heading {
+    font-size: 2em;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .joinInput {
+    font-size: 0.9rem;
+  }
+}
+
+button:focus {
+  outline: 0;
+}

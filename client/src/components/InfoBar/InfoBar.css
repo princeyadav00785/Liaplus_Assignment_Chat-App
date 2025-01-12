@@ -1,0 +1,38 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  padding: 10px 20px;
+  height: 60px;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.leftInnerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.leftInnerContainer img {
+  margin-right: 10px;
+}
+
+.leftInnerContainer h3 {
+  font-size: 1.2rem;
+}
+
+.rightInnerContainer a {
+  text-decoration: none;
+}
+
+.rightInnerContainer img {
+  width: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.rightInnerContainer img:hover {
+  transform: scale(1.2);
+}

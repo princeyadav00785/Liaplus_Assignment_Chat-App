@@ -81,6 +81,13 @@ http://localhost:5173
 On the homepage, users will be prompted to enter a **username** and a **room name**. If two or more users enter the same **room name**, they will automatically be connected in the same chat group, allowing them to communicate in real-time.
 
 ---
+### App Screenshots : 
+
+![Screenshot from 2025-01-12 16-12-52](https://github.com/user-attachments/assets/1ab09077-1a64-4c0c-8b25-b207f7ab980d)
+
+![Screenshot from 2025-01-12 16-14-03](https://github.com/user-attachments/assets/fe91d6d9-a157-4c63-b4f3-1a446c782dd8)
+
+
 
 ## Contact
 
